@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Lara, My Love</title>
+    <meta name="description" content="A collection of letters for my love, Lara, to open when needed.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="background-decor"></div>
+    <div id="intro-overlay" class="intro-overlay">
+        <div class="intro-content">
+            <h1>For Lara, My Love</h1>
+            <p>I created this just for you, so you always have a piece of me with you.</p>
+            <button id="enter-btn">Open My Heart</button>
+        </div>
+    </div>
+
+    <header class="hidden-content">
+        <h1>For Lara, My Love</h1>
+        <p class="subtitle">Read me when you need me...</p>
+    </header>
+
+    <main>
+        <div class="card-grid">
+            <!-- Cards will be dynamically inserted here by JavaScript -->
+        </div>
+    </main>
+
+    <div id="letter-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modal-title"></h2>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- Hand-drawn SVG Assets -->
+    <svg style="display: none;">
+        <defs>
+            <filter id="hand-drawn" x="-10%" y="-10%" width="120%" height="120%">
+                <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="3" result="noise" />
+                <feDisplacementMap in="SourceGraphic" in2="noise" scale="2" />
+            </filter>
+        </defs>
+    </svg>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
