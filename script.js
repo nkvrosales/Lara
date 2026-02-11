@@ -127,7 +127,12 @@ function createCards() {
     });
 }
 
+// Feature detection for touch
+const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+
 function handleTilt(e) {
+    if (isTouchDevice) return; // Skip title on mobile to avoid jitter
+
     const card = e.currentTarget;
     const rect = card.getBoundingClientRect();
     const x = e.clientX - rect.left;
