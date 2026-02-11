@@ -2,93 +2,80 @@ const letters = [
     {
         id: 'first-receive',
         title: "Open when you first receive this...",
-        content: "Hi asawa kong maganda,\n\nI made this for you because I wanted you to have a piece of me with you, always. \n\nLife can be a rollercoaster, and I know I can't always be there physically to hold your hand through it all. But I hope these letters remind you of how much you are loved, cherished, and adored. \n\nbookmark this, and come back whenever you need me. I'm always right here.\n\nI love you so much, Lara ko 😚💖"
+        content: "Hi asawa kong maganda,\n\nI made this for you because I wanted you to have a piece of me with you, always. \n\nInside here are letters or messages that contains a piece of my heart. I hope these letters remind you of how much you are loved, cherished, and adored by me. \n\nbookmark this or remember this website, and come back whenever you need me. I'm always right here.\n\nI love you so much, Lara ko 😚💖"
     },
     {
         id: 'miss-me',
         title: "Open when you miss me...",
-        content: "Hi asawa kong maganda,\n\nI know we can't always be together, and sometimes the distance feels overwhelming. But remember this: no matter how far apart we are, you are always in my heart. \n\nClose your eyes and take a deep breath. Can you feel that? That's me sending you all my love. I am so proud of you, my love. We are building a future together, and every moment apart is just one step closer to a lifetime together.\n\nI love you more than words can say."
+        content: "Hi asawa kong maganda,\n\nMiss ako ng asawa ko po? Miss din kita ngayon for sure kasi hindi tayo magkacall or magkasama kaya nababasa mo to. \n\nI know we can't always be together, and sometimes the distance is hard. But remember this no matter how far apart we are, you are always in my heart no one can change that no one can replace you. \n\nThe distance between us is temporary. Please wait for me until the day we can be together remember my promise that I will marry you. Kukunin pa kita diyan at ipapaalam kita sa family mo po para magkasama na tayo sa isang bahay na bubuoin natin. I love you more than words can explain.\n\n gimingaw ko nimo, I crave your presence, my love"
     },
     {
         id: 'sad',
         title: "Open when you're sad...",
-        content: "Hi asawa ko,\n\nI'm sad that you're feeling down. I wish I could be there to hug you and wipe away your tears. \n\nPlease remember that it's okay to not be okay sometimes. You are so strong, but you don't always have to be. Let yourself feel what you're feeling, but don't stay there too long. \n\nYou are the most beautiful, amazing person I know, and this feeling will pass. The sun will shine again. I'm here for you, always."
+        content: "Hi asawa ko,\n\nI'm sad that you're feeling down. I wish I could be there to hug you and be by your side physically. \n\nPlease remember that it's okay to not be okay sometimes. You are strong and maybe want to handle it independently, but you don't always have to be. Let yourself feel what you're feeling, but don't stay there too long. \n\nYou are the most beautiful, amazing person I know, and this feeling will pass. I'm here for you, always if you ever need me."
     },
     {
         id: 'happy',
         title: "Open when you're happy...",
-        content: "Hi my sweet sweet love,\n\nseeing you happy makes me the happiest person in the world! \n\nI hope you're smiling that beautiful smile of yours right now. Whatever caused this joy, I'm celebrating with you! Capture this moment in your heart. You deserve all the happiness in the universe.\n\nKeep shining, my love!"
+        content: "Hi my sweet sweet love,\n\nseeing you happy makes me the happiest person in the world! \n\nI hope you're smiling that beautiful smile of yours right now pero wag mo ipapakita sa iba baka ma fall po dapat sa akin lang. Yun ang goal ko po at want ko sa buhay po ang mapasaya ka po cause you make me happy. I saw the happiest version of myself with you po. You deserve all the happiness in the universe."
+    },
+    {
+        id: 'jealous',
+        title: "Open when you're jealous...",
+        content: "Hi asawa kong maganda,\n\nayaw kong nag ooverthink ikaw or nag seselos po hindi kita iiwan, at hindi kita ipagpapalit po, mahal na mahal kita hindi ka kapalit palit po walang mas better sayo po walang makakapalit sayo irreplaceable ka sakin po, you're so special, so precious to me, my love wala kang kaagaw sakin po \n\n Sayo lang ako palagi, sayong sayo lang, imo rako, ikaw lang gusto ko po ipinagdarasal, at hinihiling po\n\n I love you so much, asawa kong maganda 😚💖\nmwaaaa mwaaaa 😚😚"
     },
     {
         id: 'mad',
         title: "Open when you're mad at me...",
-        content: "Hi my love love,\n\nI'm so sorry. I never want to be the reason for your upset. Please know that even when we argue, my love for you never fades. \n\nI am imperfect, and I make mistakes. But I am always willing to listen, to learn, and to grow with you. Let's take a breath, and when you're ready, let's talk. You are my priority, and us being good is what matters most.\n\nI love you, even when things are tough."
+        content: "Hi my love love,\n\nI'm so sorry. I never want to be the reason kung bakit galit ka or sad. Please know that even when we have tampuhan, my love for you never fades. \n\nI am imperfect, and I make mistakes. Please know that I never intended to hurt you or make you mad. But I am always willing to listen, to learn, and to grow with you. You are my priority, and us being good is what matters most.\n\nI love you, even when things are tough."
     },
     {
         id: 'reassurance',
         title: "Open when you need reassurance...",
-        content: "Hi my love love ko,\n\nYou are it for me. There is no one else. \n\nI choose you, every single day. I choose your smile, your laugh, your kindness, and everything that makes you, you. You are enough. You are more than enough. You are my everything.\n\nDon't ever doubt how much you mean to me."
-    },
-    {
-        id: 'cant-sleep',
-        title: "Open when you can't sleep...",
-        content: "Hi my love ko,\n\nThe world is quiet now, and I hope your mind can find some peace too. \n\nImagine me lying there next to you, holding your hand. Let go of the worries of today. They can wait until tomorrow. For now, just rest. You are safe, you are loved, and I'll be dreaming of you.\n\nGoodnight, my angel."
+        content: "Hi my love love ko,\n\nYou are the one for me. There is no one else. \n\nI choose you, and I'll choose you always. I choose your voice, your laugh, your eyes, your smile, your pretty face, your sweetness, your cuteness, your caring side, and everything that makes you, you. You are enough. You are more than enough. You are my everything.\n\n You're the only one I want and need you and only you. You're safe with me po I'm not here to waste your time I'm committed to you and only you po, my love\n\nI love you so much, asawa kong maganda 😚💖\nonly you, always you, forever you\nmwaaaa mwaaaa 😚😚"
     },
 
     {
         id: 'bored',
         title: "Open when you're bored...",
-        content: "Hi asawa kong sweet,\n\nBored again, my love? \n\nI wish I was there to entertain you (or annoy you until you're not bored anymore!). \n\nWhy don't you listen to our favorite song? or maybe send me a selfie? seeing your face always makes my day better, and hopefully, I can make yours a little better too. \n\nI love you, you cutie!"
+        content: "Hi asawa kong sweet,\n\nwhy bored ang asawa ko po? \n\nI wish I was there with you (or kulitin ikaw hanggang mawala ang pagka bored mo po). \n\nSendan mo nalang kaya ako ng selfie po? hehe seeing your pretty face always makes my day better and make me horny, and hopefully, I can make yours a little better too. \n\nI love you so much, asawa kong maganda na masawap"
     },
     {
         id: 'overthinking',
         title: "Open when you're overthinking...",
-        content: "Hi my sweet sweet love,\n\nBreathe, my love. Just breathe.\n\nI know that beautiful mind of yours runs a mile a minute, but try to slow it down for a second. \n\nMost of the things you're worrying about right now won't happen. And even if they do, we will face them together. You are safe. We are okay. You don't have to carry the weight of the world on your shoulders.\n\nI love you, and I've got you."
+        content: "Hi my sweet sweet love,\n\nWag na ikaw mag overthink po or I lessen mo ang pag ooverthink po \n\nMost of the things you're worrying about right now won't happen. And even if they do, we will face them together sabihin mo po sakin kakampi mo ako let me assure you po. You are safe with me. You don't have to carry the weight of the world on your shoulders.\n\nI love you, and I've got you."
     },
     {
         id: 'feel-crying',
         title: "Open when you feel like crying...",
-        content: "Hi my love love,\n\nlet it out.\n\nDon't hold it in. It's okay to be vulnerable. It's okay to feel heavy. \n\nI wish I could hold you right now. Just imagine my arms wrapped around you, holding you tight. You are not alone in this. I am here, holding space for you, loving you through it all.\n\nCry if you need to, then drink some water. I love you so much."
+        content: "Hi my love love,\n\nlet it out.\n\nDon't hold it in. It's okay to cry. It's okay to be vulnerable. It's okay to feel heavy. \n\nI wish I could hug you right now and be there with you. You are not alone po. I'm here with you always, loving you through it all.\n\nCry if you need to, then drink some water. I love you so much, my love love ko."
     },
-    {
-        id: 'bad-day',
-        title: "Open when you have a bad day...",
-        content: "Hi my love love ko,\n\nI'm so sorry you had a tough day, my love.\n\nSome days just suck, and that's the truth. But remember, one bad day doesn't mean a bad life. \n\nGo easy on yourself tonight. Do something that makes you feel cozy put on your pajamas, watch something funny, or just rest. You survived today, and I'm proud of you for that.\n\nTomorrow is a fresh start. I love you!"
-    },
+
     {
         id: 'motivation',
         title: "Open when you need motivation...",
-        content: "Hi my love ko,\n\nYou can do this, Lara!\n\nI believe in you so much. You are capable, intelligent, and stronger than you know. \n\nDon't look at how far you have to go; just look at the next step. You've got this, and I'm your biggest cheerleader. Go show the world what made me fall in love with you!\n\nI'm so proud of you."
+        content: "Hi my love ko,\n\nYou can do this, my love!\n\nI believe in you. You are capable, intelligent, and stronger than you know. \n\nKaya ng asawa ko yan believe in yourself po. You've got this, and I'm your biggest cheerleader dapat ako lang nag checheer sayo or ang mga magiging anak natin.\n\nI'm so proud of you."
     },
     {
         id: 'messy-head',
         title: "Open when your head is messy...",
-        content: "Hi asawa kong maganda,\n\nIt's noisy in there, isn't it?\n\nIt's okay. Close your eyes. Listen to the sound of your own breathing. In... and out. \n\nYou don't have to figure everything out right this second. It's okay to not have all the answers. Just be here, in this moment. You are safe. You are loved. \n\nLet the noise settle. I love you."
+        content: "Hi asawa kong maganda,\n\nMessy ba ang head ng asawa ko po?\n\nIt's okay, feel what you feel po \n\n You can call me talk to me or handle it independently po. You have me always po. \n\n I love you so much."
     },
-    {
-        id: 'emotionally-exhausted',
-        title: "Open when you're emotionally exhausted...",
-        content: "Hi asawa kong sweet,\n\nMy poor love. You give so much of yourself.\n\nPlease, take a step back. You need to recharge. You cannot pour from an empty cup. \n\nIt's okay to say no. It's okay to rest. It's okay to do absolutely nothing for a while. Your only job right now is to take care of YOU. \n\nI love you. Please rest."
-    },
-    {
-        id: 'overwhelming',
-        title: "Open when everything feels overwhelming...",
-        content: "Hi my sweet sweet love,\n\nStop. Just stop for a moment.\n\nI know it feels like a mountain right now. But remember, you climb a mountain one step at a time. \n\nWhat is the one small thing you can do right now? Just do that. Then the next. You don't have to carry the whole mountain. I'm here to help you carry the load. \n\nYou are stronger than this overwhelm."
-    },
+
     {
         id: 'argument',
         title: "Open when we have an argument...",
-        content: "Hi my love love,\n\nI hate that we fought. I hate being at odds with you. \n\nPlease know that even in the heat of the moment, I love you. My anger (or your anger) does not change that. \n\nLet's cool down. I want to understand you. I want us to be okay. You are more important to me than being right. Let's fix this, together.\n\nI love you, asawa ko."
+        content: "Hi my love love,\n\nNagkatampuhan nanaman po ang mag asawa? \n\nPlease know that every tampuhan, eh ibig sabihin di na kita love po. I love you and no matter what the situation po I will always love you. \n\n I want us to be okay. You mean so much to me po. Let's fix this together, my love.\n\nI love you so so much, asawa ko."
     },
     {
         id: 'crying',
         title: "Open when you're crying...",
-        content: "Hi my love love ko,\n\nI can feel your pain from here, and it breaks my heart. \n\nWipe those tears, my love. You are so precious to me. Whatever brings you tears, I hope it passes quickly. \n\nRemember that after the rain comes the rainbow. I am sending you the biggest, tightest hug right now. I love you so much."
+        content: "Hi my love love ko,\n\nIt's okay, my love it's okay to cry po para di win ikaw mapuno po and mailabas ang feelings mo po \n\nYou are so precious to me. Sana di ako ang nagpaiyak sayo po pero if ako man po I'm so sorry, my love \n\nI love you so much mwaaaa mwaaaa."
     },
     {
         id: 'not-loved',
         title: "Open when you feel you are not loved...",
-        content: "Hi my love ko,\n\nI love you so much, my love love ko.\n\nYou are loved. You are adored . \n\nBy me, deeply and endlessly. \n\nSometimes our minds play tricks on us, but the truth is in my heart. You are the love of my life. You matter to me more than anything. Never forget that.\n\nI love you, I love you, I love you."
+        content: "Hi my love ko,\n\nI love you so much, my love love ko.\n\nYou are loved. You are adored, by me, deeply and hindi nauubos po. My love for you keeps growing po, my love. \n\nSometimes naga overthink ikaw or naiisip mo na di kita love po, but the truth is in my heart. You are the love of my life. You matter to me more than anything. Never forget that.\n\nI love you so so much, asawa ko.\nI love you more than anything\n I love you more than you know\n I love you more than words can explain"
     }
 ];
 
