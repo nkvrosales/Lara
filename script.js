@@ -32,7 +32,7 @@ const letters = [
     {
         id: 'reassurance',
         title: "Read me when you need reassurance...",
-        content: "Hi my love love ko,\n\nYou are the one for me. There is no one else. \n\nI choose you, and I'll choose you always. I choose your voice, your laugh, your eyes, your smile, your pretty face, your sweetness, your cuteness, your caring side, and everything that makes you, you. You are enough. You are more than enough. You are my everything.\n\n You're the only one I want and need you and only you. You're safe with me po I'm not here to waste your time I'm committed to you and only you po, my love\n\nI love you so much, asawa kong maganda 😚💖\nonly you, always you, forever you\nmwaaaa mwaaaa 😚😚"
+        content: "Hi my love love ko,\n\nYou are the one for me. There is no one else. \n\nI choose you, and I'll choose you always. I choose your voice, your laugh, your eyes, your smile, your pretty face, your sweetness, your cuteness, your caring side, and everything that makes you, you. You are enough. You are more than enough. You are my everything.\n\n You're the only one I want and need you and only you. I'm yours only. You're safe with me po I'm not here to waste your time I'm committed to you and only you po, my love\n\nI love you so much, asawa kong maganda 😚💖\nonly you, always you, forever you\nmwaaaa mwaaaa 😚😚"
     },
 
     {
@@ -43,7 +43,7 @@ const letters = [
     {
         id: 'overthinking',
         title: "Read me when you're overthinking...",
-        content: "Hi my sweet sweet love,\n\nWag na ikaw mag overthink po or I lessen mo ang pag ooverthink po \n\nMost of the things you're worrying about right now won't happen. And even if they do, we will face them together sabihin mo po sakin kakampi mo ako let me assure you po. You are safe with me. You don't have to carry the weight of the world on your shoulders.\n\nI love you, and I've got you."
+        content: "Hi my sweet sweet love,\n\nWag na ikaw mag overthink po or I lessen mo ang pag ooverthink po \n\nTell me po kung ano ang inooverthink mo po so I can help you calm your mind po, we will face them together sabihin mo po sakin kakampi mo ako let me assure you po. You are safe with me. You don't have to carry the weight of the world on your shoulders. I'm yours, I'm all yours. Sayo lang ako, sayong sayo lang po\n\nI love you so much."
     },
     {
         id: 'feel-crying',
@@ -87,7 +87,7 @@ const letters = [
     {
         id: 'things-i-love',
         title: "Read me when you want to know the things I love about you...",
-        content: "Hi my love,\n\nThere are so many things I love about you that I could talk about them forever. \n\nI love your kind heart, the way you care for the people around you, and how you always find a way to make me smile even on my hardest days. I love your eyes, your laugh, and the way you look at me. I love how you're so strong yet so gentle at the same time. \n\nYou are perfect to me, just the way you are. I love you so much, asawa ko."
+        content: "Hi my love,\n\nThere are so many things I love about you. \n\nI love your laugh, the way you care for me, and how you always find a way to make me smile. I love your eyes, your laugh, your smile, your pretty face, your sweetness, your cuteness, your caring side, your clingyness, your love for me, the way I am with you, the way you spoil me always, and everything that makes you, you. \n\nYou are perfect to me, just the way you are. I love you so much, asawa ko."
     },
     {
         id: 'hurt-you',
@@ -102,7 +102,7 @@ const letters = [
     {
         id: 'how-important',
         title: "Read me when you want to know how important you are to me...",
-        content: "Hi my sweet sweet love,\n\nYou are the most important person in my life. You are my world, my home, and my future. \n\nEverything I do, I do it with you in mind sorry if sometimes I hurt you with my actions but please know that I didn't intend to hurt you po. You've changed my life in the best way possible, and I can't imagine a single day without you. You are my everything, and I will always cherish and value you above all else. I love you so so much."
+        content: "Hi my sweet sweet love,\n\nYou mean so much to me po, you are the most important person in my life. You are my world, my home, and my everything. \n\nEverything I do, I do it with you in mind sorry if sometimes I hurt you with my actions but please know that I didn't intend to hurt you po. You've changed my life in the best way possible, I saw the happiest version of me with you, and I can't imagine a single day without you. You are my everything, and I will always cherish and prioritize you over anyone else. I love you so so much."
     },
     {
         id: 'gentle-reminder',
@@ -116,8 +116,8 @@ const letters = [
     },
     {
         id: 'not-doing-enough',
-        title: "Read me when you feel like you're not doing enough...",
-        content: "Hi my love,\n\nPlease don't let those thoughts get to you. You are doing more than enough just by being you. \n\nYour efforts are seen and appreciated. You are a hard worker, a loving partner, and an amazing person. Progress isn't always a straight line, and it's okay to have slow days. I am so proud of you, no matter what. I love you more than words can say."
+        title: "Read me when you feel like you're not enough...",
+        content: "Hi my love,\n\nPlease don't let those thoughts get to you. You are more than enough just by being you sobra sobra nga ikaw po, my love. \n\nI'm so lucky to have you. You never ask for anything and give all your love po for me. You are so loving, caring, sweet, beautiful, gorgeous, pretty, adorable, funny, and kind. I love you more than words can explain."
     },
     {
         id: 'compliment',
