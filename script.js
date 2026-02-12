@@ -83,6 +83,47 @@ const letters = [
         content: "Hi my love,\n\nThis song (Palagi by TJ & KZ) is my promise to you.\n\n'Pipiliin ka palagi.'\n\nIkaw ang pipiliin ko araw araw. Hindi man araw araw na masaya tayong dalawa po. Di na mabilang ang ating mga tampuhan Away-bati natin, 'di na namamalayan Ngunit sa huli, palagi Babalik pa rin sa yakap mo Hanggang sa huli, palagi Pipiliin kong maging sayo Iyo ako palagi\n Palagi \n\nPalagi. Always. Forever.\nI love you, my Palagi.",
         videoId: 'l5NQx0Ze6Mk'
     },
+    
+    {
+        id: 'things-i-love',
+        title: "Read me when you want to know the things I love about you...",
+        content: "Hi my love,\n\nThere are so many things I love about you that I could talk about them forever. \n\nI love your kind heart, the way you care for the people around you, and how you always find a way to make me smile even on my hardest days. I love your eyes, your laugh, and the way you look at me. I love how you're so strong yet so gentle at the same time. \n\nYou are perfect to me, just the way you are. I love you so much, asawa ko."
+    },
+    {
+        id: 'hurt-you',
+        title: "Read me when I did something that hurt you...",
+        content: "Hi asawa ko,\n\nIt hurts me to know that I hurt you. Please know that it's never my intention to hurt you po the person that is the most important to me the one who I love the most in the world. \n\nI am so sorry for my mistakes. I promise to listen, to understand, and to do better for you. You deserve all the happiness and love, and I will work hard to be better for you po. I love you more than anything, please forgive me."
+    },
+    {
+        id: 'not-picking-up',
+        title: "Read me when I don't reply instantly...",
+        content: "Hi asawa ko,\n\nI'm so sorry if I'm not replying right away. Please don't overthink, my love. I might just be busy, nakaidlip, or na distwact po sa tiktok, but you are always on my mind.\n\nYou are my priority, I'm sorry po kung hindi ko nasagot agad, my love. I love you so much, my love love 😚💖"
+    },
+    {
+        id: 'how-important',
+        title: "Read me when you want to know how important you are to me...",
+        content: "Hi my sweet sweet love,\n\nYou are the most important person in my life. You are my world, my home, and my future. \n\nEverything I do, I do it with you in mind sorry if sometimes I hurt you with my actions but please know that I didn't intend to hurt you po. You've changed my life in the best way possible, and I can't imagine a single day without you. You are my everything, and I will always cherish and value you above all else. I love you so so much."
+    },
+    {
+        id: 'gentle-reminder',
+        title: "Read me when you need a gentle reminder...",
+        content: "Hi my love love,\n\nJust a gentle reminder that you are enough. You are doing great, and I am so proud of the person you are. \n\nDon't be too hard on yourself. Take a deep breath, and remember that I am right here by your side, cheering for you always. You are loved, you are valued, and you are precious to me. I love you 😚💖"
+    },
+    {
+        id: 'someone-to-listen',
+        title: "Read me when you need someone to listen...",
+        content: "Hi asawa ko,\n\nI'm here. always here for you to listen po, I'm ready to listen. \n\nYou don't have to carry your burdens alone. I'm your partner, you can tell me everything, anything, or just sit with me in silence I'm not going anywhere. I've got you, always. I love you so much."
+    },
+    {
+        id: 'not-doing-enough',
+        title: "Read me when you feel like you're not doing enough...",
+        content: "Hi my love,\n\nPlease don't let those thoughts get to you. You are doing more than enough just by being you. \n\nYour efforts are seen and appreciated. You are a hard worker, a loving partner, and an amazing person. Progress isn't always a straight line, and it's okay to have slow days. I am so proud of you, no matter what. I love you more than words can say."
+    },
+    {
+        id: 'compliment',
+        title: "Read me when you need a compliment...",
+        content: "Hi asawa kong maganda,\n\nYou are breathtaking. Inside and out, you are the most beautiful person I've ever known. \n\nYour eyes, your lips, your humor, and that stunning smile of yours everything about you is perfect. You light up every room you walk into, and you certainly lit up my life. You're amazing, my love. 😚💖"
+    },
     {
         id: 'song-paninindigan',
         title: "Second song I dedicate to you",
