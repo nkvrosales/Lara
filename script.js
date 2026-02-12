@@ -1,80 +1,80 @@
 const letters = [
     {
         id: 'first-receive',
-        title: "Open when you first receive this...",
+        title: "Read me when you first receive this...",
         content: "Hi asawa kong maganda,\n\nI made this for you because I wanted you to have a piece of me with you, always. \n\nInside here are letters or messages that contains a piece of my heart. I hope these letters remind you of how much you are loved, cherished, and adored by me. \n\nbookmark this or remember this website, and come back whenever you need me. I'm always right here.\n\nI love you so much, Lara ko 😚💖"
     },
     {
         id: 'miss-me',
-        title: "Open when you miss me...",
+        title: "Read me when you miss me...",
         content: "Hi asawa kong maganda,\n\nMiss ako ng asawa ko po? Miss din kita ngayon for sure kasi hindi tayo magkacall or magkasama kaya nababasa mo to. \n\nI know we can't always be together, and sometimes the distance is hard. But remember this no matter how far apart we are, you are always in my heart no one can change that no one can replace you. \n\nThe distance between us is temporary. Please wait for me until the day we can be together remember my promise that I will marry you. Kukunin pa kita diyan at ipapaalam kita sa family mo po para magkasama na tayo sa isang bahay na bubuoin natin. I love you more than words can explain.\n\n gimingaw ko nimo, I crave your presence, my love"
     },
     {
         id: 'sad',
-        title: "Open when you're sad...",
+        title: "Read me when you're sad...",
         content: "Hi asawa ko,\n\nI'm sad that you're feeling down. I wish I could be there to hug you and be by your side physically. \n\nPlease remember that it's okay to not be okay sometimes. You are strong and maybe want to handle it independently, but you don't always have to be. Let yourself feel what you're feeling, but don't stay there too long. \n\nYou are the most beautiful, amazing person I know, and this feeling will pass. I'm here for you, always if you ever need me."
     },
     {
         id: 'happy',
-        title: "Open when you're happy...",
+        title: "Read me when you're happy...",
         content: "Hi my sweet sweet love,\n\nseeing you happy makes me the happiest person in the world! \n\nI hope you're smiling that beautiful smile of yours right now pero wag mo ipapakita sa iba baka ma fall po dapat sa akin lang. Yun ang goal ko po at want ko sa buhay po ang mapasaya ka po cause you make me happy. I saw the happiest version of myself with you po. You deserve all the happiness in the universe."
     },
     {
         id: 'jealous',
-        title: "Open when you're jealous...",
+        title: "Read me when you're jealous...",
         content: "Hi asawa kong maganda,\n\nayaw kong nag ooverthink ikaw or nag seselos po hindi kita iiwan, at hindi kita ipagpapalit po, mahal na mahal kita hindi ka kapalit palit po walang mas better sayo po walang makakapalit sayo irreplaceable ka sakin po, you're so special, so precious to me, my love wala kang kaagaw sakin po \n\n Sayo lang ako palagi, sayong sayo lang, imo rako, ikaw lang gusto ko po ipinagdarasal, at hinihiling po\n\n I love you so much, asawa kong maganda 😚💖\nmwaaaa mwaaaa 😚😚"
     },
     {
         id: 'mad',
-        title: "Open when you're mad at me...",
+        title: "Read me when you're mad at me...",
         content: "Hi my love love,\n\nI'm so sorry. I never want to be the reason kung bakit galit ka or sad. Please know that even when we have tampuhan, my love for you never fades. \n\nI am imperfect, and I make mistakes. Please know that I never intended to hurt you or make you mad. But I am always willing to listen, to learn, and to grow with you. You are my priority, and us being good is what matters most.\n\nI love you, even when things are tough."
     },
     {
         id: 'reassurance',
-        title: "Open when you need reassurance...",
+        title: "Read me when you need reassurance...",
         content: "Hi my love love ko,\n\nYou are the one for me. There is no one else. \n\nI choose you, and I'll choose you always. I choose your voice, your laugh, your eyes, your smile, your pretty face, your sweetness, your cuteness, your caring side, and everything that makes you, you. You are enough. You are more than enough. You are my everything.\n\n You're the only one I want and need you and only you. You're safe with me po I'm not here to waste your time I'm committed to you and only you po, my love\n\nI love you so much, asawa kong maganda 😚💖\nonly you, always you, forever you\nmwaaaa mwaaaa 😚😚"
     },
 
     {
         id: 'bored',
-        title: "Open when you're bored...",
+        title: "Read me when you're bored...",
         content: "Hi asawa kong sweet,\n\nwhy bored ang asawa ko po? \n\nI wish I was there with you (or kulitin ikaw hanggang mawala ang pagka bored mo po). \n\nSendan mo nalang kaya ako ng selfie po? hehe seeing your pretty face always makes my day better and make me horny, and hopefully, I can make yours a little better too. \n\nI love you so much, asawa kong maganda na masawap"
     },
     {
         id: 'overthinking',
-        title: "Open when you're overthinking...",
+        title: "Read me when you're overthinking...",
         content: "Hi my sweet sweet love,\n\nWag na ikaw mag overthink po or I lessen mo ang pag ooverthink po \n\nMost of the things you're worrying about right now won't happen. And even if they do, we will face them together sabihin mo po sakin kakampi mo ako let me assure you po. You are safe with me. You don't have to carry the weight of the world on your shoulders.\n\nI love you, and I've got you."
     },
     {
         id: 'feel-crying',
-        title: "Open when you feel like crying...",
+        title: "Read me when you feel like crying...",
         content: "Hi my love love,\n\nlet it out.\n\nDon't hold it in. It's okay to cry. It's okay to be vulnerable. It's okay to feel heavy. \n\nI wish I could hug you right now and be there with you. You are not alone po. I'm here with you always, loving you through it all.\n\nCry if you need to, then drink some water. I love you so much, my love love ko."
     },
 
     {
         id: 'motivation',
-        title: "Open when you need motivation...",
+        title: "Read me when you need motivation...",
         content: "Hi my love ko,\n\nYou can do this, my love!\n\nI believe in you. You are capable, intelligent, and stronger than you know. \n\nKaya ng asawa ko yan believe in yourself po. You've got this, and I'm your biggest cheerleader dapat ako lang nag checheer sayo or ang mga magiging anak natin.\n\nI'm so proud of you."
     },
     {
         id: 'messy-head',
-        title: "Open when your head is messy...",
+        title: "Read me when your head is messy...",
         content: "Hi asawa kong maganda,\n\nMessy ba ang head ng asawa ko po?\n\nIt's okay, feel what you feel po \n\n You can call me talk to me or handle it independently po. You have me always po. \n\n I love you so much."
     },
 
     {
         id: 'argument',
-        title: "Open when we have an argument...",
+        title: "Read me when we have an argument...",
         content: "Hi my love love,\n\nNagkatampuhan nanaman po ang mag asawa? \n\nPlease know that every tampuhan, eh ibig sabihin di na kita love po. I love you and no matter what the situation po I will always love you. \n\n I want us to be okay. You mean so much to me po. Let's fix this together, my love.\n\nI love you so so much, asawa ko."
     },
     {
         id: 'crying',
-        title: "Open when you're crying...",
+        title: "Read me when you're crying...",
         content: "Hi my love love ko,\n\nIt's okay, my love it's okay to cry po para di win ikaw mapuno po and mailabas ang feelings mo po \n\nYou are so precious to me. Sana di ako ang nagpaiyak sayo po pero if ako man po I'm so sorry, my love \n\nI love you so much mwaaaa mwaaaa."
     },
     {
         id: 'not-loved',
-        title: "Open when you feel you are not loved...",
+        title: "Read me when you feel you are not loved...",
         content: "Hi my love ko,\n\nI love you so much, my love love ko.\n\nYou are loved. You are adored, by me, deeply and hindi nauubos po. My love for you keeps growing po, my love. \n\nSometimes naga overthink ikaw or naiisip mo na di kita love po, but the truth is in my heart. You are the love of my life. You matter to me more than anything. Never forget that.\n\nI love you so so much, asawa ko.\nI love you more than anything\n I love you more than you know\n I love you more than words can explain"
     },
     {
@@ -263,28 +263,35 @@ document.addEventListener('DOMContentLoaded', () => {
 function updateCounter() {
     const startDate = new Date('2025-08-09T00:00:00');
     const now = new Date();
-    const diff = now - startDate;
 
-    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+    let years = now.getFullYear() - startDate.getFullYear();
+    let months = now.getMonth() - startDate.getMonth();
+    let days = now.getDate() - startDate.getDate();
 
-    const years = Math.floor(days / 365);
-    const months = Math.floor((days % 365) / 30);
-    const remainingDays = Math.floor((days % 365) % 30);
+    if (days < 0) {
+        months--;
+        const lastMonth = new Date(now.getFullYear(), now.getMonth(), 0).getDate();
+        days += lastMonth;
+    }
 
-    let timeString = "";
+    if (months < 0) {
+        years--;
+        months += 12;
+    }
 
-    // Simple logic to build the string gracefully
-    if (years > 0) timeString += `${years} Year${years > 1 ? 's' : ''}, `;
-    if (months > 0 || years > 0) timeString += `${months} Month${months > 1 ? 's' : ''}, `;
-    timeString += `${remainingDays} Day${remainingDays > 1 ? 's' : ''}, `;
-    timeString += `${hours} Hour${hours > 1 ? 's' : ''}, `;
-    timeString += `${minutes} Min${minutes > 1 ? 's' : ''}, `;
-    timeString += `${seconds} Sec${seconds > 1 ? 's' : ''}`;
+    const diffMs = now - startDate;
+    const hours = Math.floor((diffMs % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((diffMs % (1000 * 60)) / 1000);
 
-    document.getElementById('counter-display').textContent = timeString;
+    const parts = [];
+    if (years > 0) parts.push(`${years} ${years === 1 ? 'Year' : 'Years'}`);
+    if (months > 0) parts.push(`${months} ${months === 1 ? 'Month' : 'Months'}`);
+    if (days > 0) parts.push(`${days} ${days === 1 ? 'Day' : 'Days'}`);
+
+    parts.push(`${hours}h ${minutes}m ${seconds}s`);
+
+    document.getElementById('counter-display').textContent = parts.join(', ');
 }
 
 // Daily Message Logic

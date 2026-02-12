@@ -63,6 +63,10 @@ header {
     margin-bottom: 4rem;
     animation: organicEntry 1.2s cubic-bezier(0.22, 1, 0.36, 1);
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
 }
 
 h1 {
@@ -80,6 +84,7 @@ h1 {
     color: var(--highlight-color);
     display: inline-block;
     position: relative;
+    margin-bottom: 0.5rem;
 }
 
 .subtitle::after {
@@ -469,14 +474,19 @@ body.content-ready .hidden-content {
 
 /* Relationship Counter Styles */
 .relationship-counter {
-    margin: 2rem 0;
+    margin: 0;
     padding: 1.5rem;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 15px;
     border: 1px dashed rgba(184, 134, 11, 0.3);
     display: inline-block;
-    min-width: 300px;
+    min-width: 320px;
     backdrop-filter: blur(5px);
+    transition: transform 0.3s ease;
+}
+
+.relationship-counter:hover {
+    transform: scale(1.02);
 }
 
 .relationship-counter h3 {
@@ -488,11 +498,12 @@ body.content-ready .hidden-content {
 
 #counter-display {
     font-family: var(--font-heading);
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     color: var(--text-color);
     font-weight: 700;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.3rem;
     line-height: 1.4;
+    letter-spacing: 0.02em;
 }
 
 .since-date {
