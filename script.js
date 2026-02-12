@@ -76,6 +76,18 @@ const letters = [
         id: 'not-loved',
         title: "Open when you feel you are not loved...",
         content: "Hi my love ko,\n\nI love you so much, my love love ko.\n\nYou are loved. You are adored, by me, deeply and hindi nauubos po. My love for you keeps growing po, my love. \n\nSometimes naga overthink ikaw or naiisip mo na di kita love po, but the truth is in my heart. You are the love of my life. You matter to me more than anything. Never forget that.\n\nI love you so so much, asawa ko.\nI love you more than anything\n I love you more than you know\n I love you more than words can explain"
+    },
+    {
+        id: 'song-palagi',
+        title: "Song I dedicate to you",
+        content: "Hi my love,\n\nThis song (Palagi by TJ & KZ) is my promise to you.\n\n'Pipiliin ka palagi.'\n\nIkaw ang pipiliin ko araw araw. Hindi man araw araw na masaya tayong dalawa po. Di na mabilang ang ating mga tampuhan Away-bati natin, 'di na namamalayan Ngunit sa huli, palagi Babalik pa rin sa yakap mo Hanggang sa huli, palagi Pipiliin kong maging sayo Iyo ako palagi\n Palagi \n\nPalagi. Always. Forever.\nI love you, my Palagi.",
+        videoId: 'l5NQx0Ze6Mk'
+    },
+    {
+        id: 'song-paninindigan',
+        title: "Second song I dedicate to you",
+        content: "Hi asawa ko,\n\nPaninindigan Kita.\n\nPaninindigan kita, Ika'y iingatan ko, At aalagaan ko \n\n'Paninindigan kita, oo, mamahalin kita buong buo. Kahit sa pagtanda ako'y sayo'\n\nPapakasalan kita, sisikapin ko tuparin ang pangako ko sayo at mga plano natin, asawa ko. I'm so proud being yours, at I want to tell it to others and show them that I'm yours and only yours.\n\nI love you so much, asawa ko.",
+        videoId: 'EMSAEKeloC8' // Official Lyric Video ID
     }
 ];
 
@@ -83,6 +95,7 @@ const cardGrid = document.querySelector('.card-grid');
 const modal = document.getElementById('letter-modal');
 const modalTitle = document.getElementById('modal-title');
 const modalBody = document.getElementById('modal-body');
+const modalVideoContainer = document.getElementById('modal-video-container'); // Check if this element exists
 const closeBtn = document.querySelector('.close-btn');
 const introOverlay = document.getElementById('intro-overlay');
 const enterBtn = document.getElementById('enter-btn');
@@ -162,6 +175,46 @@ function createPetals() {
 function openLetter(letter) {
     modalTitle.textContent = letter.title;
     modalBody.textContent = letter.content;
+
+    // Check if video container exists before trying to access it
+    const videoContainer = document.getElementById('modal-video-container');
+    if (videoContainer) {
+        videoContainer.innerHTML = ''; // Clear previous video
+
+        if (letter.videoId) {
+            videoContainer.style.display = 'block';
+            const iframe = document.createElement('iframe');
+            iframe.width = "100%";
+            iframe.height = "315";
+            iframe.src = `https://www.youtube.com/embed/${letter.videoId}`;
+            iframe.title = "YouTube video player";
+            iframe.frameBorder = "0";
+            iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+            iframe.allowFullscreen = true;
+            iframe.style.borderRadius = "10px";
+            iframe.style.boxShadow = "0 4px 15px rgba(0,0,0,0.1)";
+
+            videoContainer.appendChild(iframe);
+
+            // Fallback Link
+            const fallbackLink = document.createElement('a');
+            fallbackLink.href = `https://www.youtube.com/watch?v=${letter.videoId}`;
+            fallbackLink.target = '_blank';
+            fallbackLink.textContent = "Video not playing? Watch on YouTube";
+            fallbackLink.style.display = 'block';
+            fallbackLink.style.marginTop = '10px';
+            fallbackLink.style.color = '#b8860b'; // highlight-color
+            fallbackLink.style.fontSize = '0.9rem';
+            fallbackLink.style.textDecoration = 'underline';
+            fallbackLink.style.textAlign = 'center';
+            fallbackLink.style.fontFamily = 'Montserrat, sans-serif';
+
+            videoContainer.appendChild(fallbackLink);
+        } else {
+            videoContainer.style.display = 'none';
+        }
+    }
+
     modal.classList.add('show');
     document.body.style.overflow = 'hidden';
 }
@@ -170,6 +223,13 @@ function openLetter(letter) {
 function closeModal() {
     modal.classList.remove('show');
     document.body.style.overflow = '';
+
+    // Stop video playback when closing modal
+    const videoContainer = document.getElementById('modal-video-container');
+    if (videoContainer) {
+        videoContainer.innerHTML = '';
+        videoContainer.style.display = 'none';
+    }
 }
 
 // Event Listeners
@@ -185,6 +245,9 @@ window.addEventListener('click', (e) => {
 document.addEventListener('DOMContentLoaded', () => {
     createCards();
     createPetals();
+    updateCounter();
+    setInterval(updateCounter, 1000);
+    displayDailyMessage();
 
     // Intro Button
     enterBtn.addEventListener('click', () => {
@@ -195,3 +258,53 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 1200);
     });
 });
+
+// Relationship Counter Logic
+function updateCounter() {
+    const startDate = new Date('2025-08-09T00:00:00');
+    const now = new Date();
+    const diff = now - startDate;
+
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+    const years = Math.floor(days / 365);
+    const months = Math.floor((days % 365) / 30);
+    const remainingDays = Math.floor((days % 365) % 30);
+
+    let timeString = "";
+
+    // Simple logic to build the string gracefully
+    if (years > 0) timeString += `${years} Year${years > 1 ? 's' : ''}, `;
+    if (months > 0 || years > 0) timeString += `${months} Month${months > 1 ? 's' : ''}, `;
+    timeString += `${remainingDays} Day${remainingDays > 1 ? 's' : ''}, `;
+    timeString += `${hours} Hour${hours > 1 ? 's' : ''}, `;
+    timeString += `${minutes} Min${minutes > 1 ? 's' : ''}, `;
+    timeString += `${seconds} Sec${seconds > 1 ? 's' : ''}`;
+
+    document.getElementById('counter-display').textContent = timeString;
+}
+
+// Daily Message Logic
+const dailyMessages = [
+    "You are my greatest adventure.",
+    "Every day with you is a gift.",
+    "I love you more than words can say.",
+    "You make my heart smile.",
+    "You are the best thing that ever happened to me.",
+    "Thinking of you keeps me awake. Dreaming of you keeps me asleep. Being with you keeps me alive.",
+    "I look at you and see the rest of my life in front of my eyes.",
+    "You are my sun, my moon, and all my stars.",
+    "I love you not only for what you are, but for what I am when I am with you.",
+    "My love for you has no depth, its boundaries are ever-expanding.",
+    "You are my heart, my life, my one and only thought.",
+    "I choose you. And I'll choose you over and over and over. Without pause, without a doubt, in a heartbeat. I'll keep choosing you.",
+    "If I had a flower for every time I thought of you...I could walk through my garden forever."
+];
+
+function displayDailyMessage() {
+    const randomIndex = Math.floor(Math.random() * dailyMessages.length);
+    document.getElementById('daily-message').textContent = `"${dailyMessages[randomIndex]}"`;
+}
