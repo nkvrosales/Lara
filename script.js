@@ -41,6 +41,11 @@ const letters = [
         content: "Hi asawa kong sweet,\n\nwhy bored ang asawa ko po? \n\nI wish I was there with you (or kulitin ikaw hanggang mawala ang pagka bored mo po). \n\nSendan mo nalang kaya ako ng selfie po? hehe seeing your pretty face always makes my day better and make me horny, and hopefully, I can make yours a little better too. \n\nI love you so much, asawa kong maganda na masawap"
     },
     {
+        id: 'school',
+        title: "Read me when nasa school ang asawa mo po...",
+        content: "Hi asawa kong maganda,\n\nBehave ang asawa mo po here, miss na miss ikaw sobra po at iniisip ikaw always, di nagwawander ang eyes\n\nYou can ask me po what I'm doing I'll update you always po and can send pic po, my love \n\nI love you so much, asawa kong maganda na masawap"
+    },
+    {
         id: 'overthinking',
         title: "Read me when you're overthinking...",
         content: "Hi my sweet sweet love,\n\nWag na ikaw mag overthink po or I lessen mo ang pag ooverthink po \n\nTell me po kung ano ang inooverthink mo po so I can help you calm your mind po, we will face them together sabihin mo po sakin kakampi mo ako let me assure you po. You are safe with me. You don't have to carry the weight of the world on your shoulders. I'm yours, I'm all yours. Sayo lang ako, sayong sayo lang po\n\nI love you so much."
